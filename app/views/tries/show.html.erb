@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date start:</strong>
+  <%= @try.date_start %>
+</p>
+
+<p>
+  <strong>Date end:</strong>
+  <%= @try.date_end %>
+</p>
+
+<%= link_to 'Edit', edit_try_path(@try) %> |
+<%= link_to 'Back', tries_path %>

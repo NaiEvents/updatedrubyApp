@@ -9,7 +9,12 @@ body {
 
 
 
-
+.unique{
+    background-color: #A6A169;
+      border-style: solid;
+    border-width: 5px;
+    height: 400px;
+}
  #top{
 
     
@@ -21,6 +26,11 @@ body {
     margin:auto; 
     height: 450px; 
    background-image: url("/main.jpg");
+
+
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
     
 
  }
@@ -44,27 +54,14 @@ body {
 
 #featuredevents{
 	margin-top: 30px;
-	margin-left: 110px;
+	margin-left: 50px;
 	margin-right: 50px;
 
 }
 
 
-div#featuredevents {
-   
-  margin-top: 30px;
-  background-color: blue;
 
- 
-}
 
-.actualevent{
-
-background-color: black;
-height: 10px;
-margin-right: 50px;
-
-}
 
 
  img {

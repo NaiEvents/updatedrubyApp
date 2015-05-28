@@ -16,8 +16,18 @@
 </p>
 
 <p>
-  <strong>Description:</strong>
-  <%= @event.description %>
+  <strong>Eventbrite link:</strong>
+  <%= @event.url %>
+</p>
+
+<p>
+  <strong>Date start:</strong>
+  <%= @event.starttime %>
+</p>
+
+<p>
+  <strong>Date end:</strong>
+  <%= @event.endtime %>
 </p>
 
 <%= link_to 'Edit', edit_event_path(@event) %> |

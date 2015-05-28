@@ -2,6 +2,7 @@ Rails.application.routes.draw do
  
 
 
+  resources :tries
   resources :events
   root 'home#index'
 
