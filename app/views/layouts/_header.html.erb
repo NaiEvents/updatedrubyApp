@@ -1,18 +1,32 @@
 
-<header class="navbar navbar-fixed-top navbar-inverse" id="mainnav">
-  <div class="container">
-    <%= link_to "NAIEVENTS", '#', id: "logo" %>
-    <nav>
+
+
+<header>
+  <nav class="navbar " id="mainnav">
+  <div class="container-fluid">
+    <div class="navbar-header"  id="navlogo">
+      
+      <%= link_to "NAIEVENTS", '#' , class: "navbar-brand" %>  
+       
+    </div>
+    <div id="mainlist">
       <ul class="nav navbar-nav navbar-right" class="navlist">
-        <li ><%= link_to "Home",   '#' %></li>
-        <li ><%= link_to "Login",   '#' %></li>
-        <li ><%= link_to "Signup", '#' %></li>
+
+        <li class="active"><%= link_to "Home",   '#' %></li>
+        <li> <%= link_to 'Create Event', new_event_path %></li>
+       
+        
       </ul>
+    </div>
 
-
-      <ul class="nav navbar-nav pull-right">
-
-</ul>
-    </nav>
+  
   </div>
+  <div class="row" id="row1">
+<h1>Locate, register and attend  Music events that matter to you<br>in Nairobi</h1>
+
+  
+</nav>
+
+</div>
+
 </header>

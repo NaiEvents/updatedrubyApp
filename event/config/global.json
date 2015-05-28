@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "Margaret Munyite": {
+      "applicationId": "qgNZmjMwC0Vt9xiCKElsP42NgvjtiDH8s0mj7dDJ",
+      "masterKey": "KgPbICwgLnn29Mc7LkFPgrsdv8EEcIOzRHTxiQAk"
+    },
+    "_default": {
+      "link": "Margaret Munyite"
+    }
+  }
+}

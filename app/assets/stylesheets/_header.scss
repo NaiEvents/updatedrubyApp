@@ -1,11 +1,58 @@
  #mainnav{
 
  	
- 	background-color: #2979FF;
+ 	  background-color: transparent;
+    /*background: transparent;*/
+    background-size: cover;
+    width:100%;  
+   height: 600px;
+    
+   background:url("assets/main.jpg") repeat 0 0;
+   padding-top: 30px;
+    
+
+ }
+ #navlogo{
+ 	background-color: white;
+ 	float: left;
  }
 
+ #row1{
+  text-align: center;
+  color: #ffffff;
+  padding-top:100px;
+  
+}
 
 
-.navbar-inverse .navbar-nav>li>a {
+
+/*.navbar-inverse .navbar-nav>li>a {
   color: white;
+}*/
+
+
+
+  
+  #mainnav li  a{ 
+  	
+  	font-size: 25px
+
+  }
+
+
+  #about {
+	
+	 padding-right: 350px;
+	 padding-left: 250px;
+	 padding-top: 150px;
+}
+
+  #about h1{
+	
+	 font-family:  Arial, Verdana;
+	 font-size: 34px;
+	 line-height: 2;
+	 text-align: center;
+	 font-weight: bold;
+	
 }

@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+
+<body>
+
+<div >
+<!-- this is a div for the nav bar -->
+ <div id="top">
+     <%= render 'layouts/header' %>
+
+  </div>
+    <!-- div for displaying title -->
+    <div class="row" id="featuredeventstitle">
+        <p>Featured Events</p>
+  </div>
+
+  <!-- <div class="row" >
+    <div class="col-sm-4" id="event1">
+     <img src="assets/bussiness.jpg" class="img-rounded"  width="304" height="236">
+      
+    </div>
+    <div class="col-sm-4" id="event2" >
+    <img src="assets/grooveimg.png" class="img-rounded"  width="304" height="236">
+      
+    </div>
+    <div class="col-sm-4" id="event3">
+    <img src="assets/saflive.jpg" class="img-rounded"  width="304" height="236">
+      
+    </div>
+  </div> -->
+  </div>
+
+
+<div class="box">
+<div class="row" id="featuredevents" >
+
+  
+  <% @events.each do |event| %>
+
+
+  <div class= "col-md-4" >
+       <div style="height:100px, width:200px">
+         
+       </div>
+        <%= image_tag event.image.url ,id: "actualevent"%><br>
+        <%= event.title %>
+        <%= link_to 'Show', event %>
+
+        
+   </div>
+<% end %>
+</div>
+
+
+ </div>
+
+
+
+</body>
