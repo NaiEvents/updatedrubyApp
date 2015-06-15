@@ -13,6 +13,9 @@
     <div class="row" id="featuredeventstitle">
         <p>Featured Events</p>
   </div>
+  <div class="row" style="margin-left:50px;">
+        <p>click the box of your choice to view more details</p>
+  </div>
 
   <!-- <div class="row" >
     <div class="col-sm-4" id="event1">
@@ -42,11 +45,13 @@
        <!-- <div style="height:100px, width:200px">
          
        </div> -->
-       
+      
         <%= link_to (image_tag event.image.url) , event.url %><br>
-
-        <%= event.title %>
-        <%= link_to 'Show', event %>
+       <div class="row titlediv"style="height:50px, width:50px">
+         <%= event.title %>
+       </div> 
+        
+       <!--  <%= link_to 'Show', event %> -->
 
         
    </div>
